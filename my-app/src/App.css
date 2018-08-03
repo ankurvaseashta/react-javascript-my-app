@@ -43,8 +43,8 @@
 
 .button{
     background-color: white;
-    border: 2px solid #7518af;
-    color: #7518af;
+    border: 2px solid #183666;
+    color: #183666;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -110,3 +110,5 @@ h5 {
     color: black;
     text-align: center;
 }
+
+p.dotted {border-style: dotted;}
