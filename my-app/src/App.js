@@ -9,15 +9,11 @@ class App extends Component {
       <div className="App" >
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Learn React Javascript</h1>
+          <h1 className="App-title">React App</h1>
         </header>
         <p className="App-intro">
-
           <code>Welcome to my web app!</code>
-
-      <button class="button" onClick={() => alert('click')}> Hi there! </ button>
-
-
+          <button class="button" onClick={() => alert(' ¯\\_(ツ)_/¯ ')}> Happy? </ button>
         </p>
       </div>
     );
