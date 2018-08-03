@@ -2,7 +2,7 @@
 
 ### A React JavaScript web application.
 
-* This is a React JavaScript web application that implements Material UI Design component libraries by Google.
+* This is a React JavaScript web application.
 
 #### About Me
 * Name: Ankur Vaseashta

@@ -15,6 +15,7 @@
 }
 
 .App-title {
+  color: grey;
   font-size: 1.5em;
 }
 
@@ -22,7 +23,86 @@
   font-size: large;
 }
 
+.indent{
+    margin-left: 25px;
+    margin-right: 0px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.deepIndent{
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button{
+    background-color: white;
+    border: 2px solid #7518af;
+    color: #7518af;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 6px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+/* CSS */
+
+body {
+  background-color: #f5f7f4;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    color: black;
+    text-align: left;
+}
+
+a {
+    color: black;
+    text-align: left;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    color: black;
+    text-align: center;
+}
+
+h5 {
+    color: black;
+    text-align: center;
 }
