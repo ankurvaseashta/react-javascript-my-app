@@ -3,6 +3,18 @@ import logo from './logo.svg';
 import './App.css';
 import { hello, user }  from './tools';
 
+
+function Person(props){
+  return (
+   <div className="person">
+    <h1>{props.name}</h1>
+    <p>Your age: {props.age} </p>
+  </div>
+  );
+}
+
+//
+
 class App extends Component {
 
     state = {
@@ -23,8 +35,6 @@ class App extends Component {
 
 
   render() {
-  const { classes } = this.props;
-  const { open } = this.state;
 
     return (
       <div className="App">
@@ -43,4 +53,7 @@ class App extends Component {
   }
 }
 
-export default App;
+export {
+  App,
+  Person,
+}
