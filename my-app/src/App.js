@@ -3,6 +3,22 @@ import logo from './logo.svg';
 import './App.css';
 import { hello, user }  from './tools';
 
+/*ES6 refresher*/
+let myName = 'Ankur';
+console.log("Welcome " + myName);
+
+myName = 'AnkurTest';
+console.log(myName);
+
+const printMyName = (name, age) => {
+  console.log(name, age);
+}
+printMyName('Max', 33);
+
+const multiply = number => number * 2;
+console.log(multiply(2));
+/*ES6*/
+
 
 function Person(props){
   return (
@@ -45,8 +61,8 @@ class App extends Component {
         <p className="App-intro">
            <code>{user.firstName}, welcome to my web app!</code>
 
-          <button class="button" onClick={hello}> Hello </ button>
-          <button class="button" onClick={() => alert(' ¯\\_(ツ)_/¯ ')}> test </ button>
+          <button className="button" onClick={hello}> Hello </ button>
+          <button className="button" onClick={() => alert(' ¯\\_(ツ)_/¯ ')}> test </ button>
         </p>
       </div>
     );
