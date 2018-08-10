@@ -27,9 +27,7 @@ function Person(props){
     <p>Your age: {props.age} </p>
   </div>
   );
-}
-
-//
+}//
 
 class App extends Component {
 
@@ -67,7 +65,7 @@ class App extends Component {
       </div>
     );
   }
-}
+}//
 
 export {
   App,
