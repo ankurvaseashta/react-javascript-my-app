@@ -8,6 +8,8 @@ export const user = {
   level: 'React 101'
 };
 
+/* Next-Gen JavaScript Features */
+
 /********* Lesson ************/
 /*let & const & ES6 Arrow Functions */
 /********* Lesson ************/
