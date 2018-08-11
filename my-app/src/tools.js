@@ -76,6 +76,7 @@ console.log(name);
 console.log(age);
 /*Arrray Destructuring*/
 
+
 /********* Lesson ************/
 /*Reference vs Primitive Type*/
 /********* Lesson ************/
@@ -86,7 +87,6 @@ const number = 1;
 const num2 = number;
 console.log(num2);
 
-
 /*person the object is stored in memory and const person is a pointer to it*/
 const person0 = {
   name: 'Ankur'
@@ -95,8 +95,6 @@ const person0 = {
 const secondPerson = person0;
 person0.name = 'Manu';
 console.log(secondPerson);
-
-
 
 /*person the object is stored in memory and const person is a pointer to it*/
 const person1 = {
@@ -108,3 +106,14 @@ const secondPerson1 = {
 };
 person.name = 'Manu1';
 console.log(secondPerson1);
+
+
+/********* Lesson ************/
+/*Arrays*/
+/********* Lesson ************/
+const numbArray = [1,2,3];
+const doubleNumArray = numbArray.map((num) =>{
+  return num*2;
+} );
+console.log(numbArray);
+console.log(doubleNumArray);
