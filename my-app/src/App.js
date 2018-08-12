@@ -54,7 +54,8 @@ class App extends Component {
           changed={this.usernameChangedHandler} 
           currentName={this.state.username} />
         <UserOutput userName={this.state.username} />
-        <UserOutput userName="Max" />
+        <UserOutput userName={this.state.username} />
+        <UserOutput userName="Ankur" />
       </div>
     );
   }
