@@ -22,8 +22,7 @@ var app = (
   </div>
 );
 
-ReactDOM.render(app,
-document.querySelector('#app'));
+ReactDOM.render(app, document.querySelector('#app'));
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
