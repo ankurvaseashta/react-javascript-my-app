@@ -88,7 +88,7 @@ console.log(personLesson4.species); // prints 'human'
 /*Classes  **/
 
 /********* Lesson ************/
-/*Spread Operator */
+/* ES6 Spread Operator */
 /********* Lesson ************/
 const numbers = [1,2,3];
 const newNumbers = [...numbers, 4];
@@ -105,18 +105,18 @@ const newPerson = {
 }
 
 console.log(newPerson);
-/*Spread Operator*/
+/* ES6 Spread Operator*/
 
 /********* Lesson ************/
-/*Rest Operator*/
+/* ES6 Rest Operator*/
 /********* Lesson ************/
 const filter = (...args) => {
   return args.filter(el => el === 1);
 }
 
 console.log(filter(1,2,3));
-/*Rest Operator*/
-/*Spread & Rest Operator
+/*ES6 Rest Operator*/
+/*ES6 Spread & Rest Operator
 The spread and rest operators actually use the same syntax: ... 
 Yes, that is the operator - just three dots. It's usage determines whether you're using it as the spread or rest operator.
 Using the Spread Operator:
