@@ -232,6 +232,15 @@ const printName = ({name1}) => {
 printName({name1: 'MaxLastLesson', age1: 28}); // prints 'Max')
 /*We get the same result as above but we save some code. By destructuring, we simply pull out the name  property and store it in a variable/ argument named name  which we then can use in the function body.*/
 
+
+/* */
+const arrayNum = [1, 2, 3, 4, 5];
+const doubled = arrayNum.map((number) => number * 2);
+console.log(doubled);
+const listItems = arrayNum.map((number) => number );
+console.log(listItems);
+
+
 /*
 Not really next-gen JavaScript, but also important: JavaScript array functions like map() , filter() , reduce()  etc.
 
